@@ -4,6 +4,8 @@ import { useParams } from "react-router-dom";
 import { BerandaCategory } from "../../components/beranda/BerandaCategory";
 import { BookingModal } from "../../components/beranda/BookingModal";
 import { StarIcon } from "lucide-react";
+import doctor from "../../assets/image/doctor1.png";
+import { BerandaPromoCard } from "../../components/beranda/BerandaPromoCard";
 
 export const BerandaPage = () => {
     const { id } = useParams();
@@ -38,11 +40,11 @@ export const BerandaPage = () => {
                             </button>
                         </div>
 
-                        <div className="relative h-108">
+                        <div className="relative h-[200px] md:h-130">
                             <img
-                                src="https://images.unsplash.com/photo-1622253692010-333f2da6031d"
+                                src={doctor}
                                 alt="doctor"
-                                className="rounded-3xl shadow-xl w-full object-contain h-full"
+                                className="rounded-3xl shadow-xl w-full object-cover h-full bg-gray-300/30"
                             />
                             <div className="absolute bottom-8 right-6 bg-white px-5 py-3 rounded-xl shadow-lg border border-teal-100 w-64">
                                 <div className="flex -space-x-2">
@@ -79,6 +81,13 @@ export const BerandaPage = () => {
                     </h2>
 
                     <BerandaCategory />
+                </section>
+                <section className="max-w-7xl mx-auto mt-24">
+                    <h2 className="text-3xl md:text-4xl font-semibold text-center">
+                        Promo <span className="text-teal-600">Menarik</span>
+                    </h2>
+
+                    <BerandaPromoCard />
                 </section>
             </div>
 
