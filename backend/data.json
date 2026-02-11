@@ -1,0 +1,387 @@
+{
+  "clinics": [
+    {
+      "id": 1,
+      "name": "Klinik Mayapada 1",
+      "type": "Klinik Umum",
+      "address": "Jl. H. R. Rasuna Said, Kav C-17",
+      "rating": 4.8,
+      "totalReviews": 1872,
+      "images": [
+        "/assets/image/klinik1.jpg",
+        "/assets/image/klinik2.jpg",
+        "/assets/image/klinik3.jpg",
+        "/assets/image/klinik4.jpg"
+      ],
+      "tabs": [
+        "Info Umum",
+        "Spesialis",
+        "Fasilitas",
+        "Review",
+        "Lokasi"
+      ],
+      "specialists": [
+        {
+          "id": 1,
+          "name": "Dr. Mawardi",
+          "specialization": "Cardiologist",
+          "rating": 4.9,
+          "totalReviews": 72,
+          "image": "/assets/image/doctor1.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Dr. Jessica",
+          "specialization": "Orthopedi",
+          "rating": 4.8,
+          "totalReviews": 127,
+          "image": "/assets/image/doctor2.jpg"
+        }
+      ],
+      "facilities": [
+        {
+          "name": "WiFi",
+          "icon": "wifi-icon"
+        },
+        {
+          "name": "AC",
+          "icon": "ac-icon"
+        },
+        {
+          "name": "Parkir",
+          "icon": "parking-icon"
+        },
+        {
+          "name": "Spa",
+          "icon": "spa-icon"
+        }
+      ],
+      "reviews": [
+        {
+          "id": 1,
+          "userName": "Emily Anderson",
+          "rating": 5,
+          "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae risus dui. Integer imperdiet sem ac ros ultrices tempor tortor.",
+          "date": "2024-01-15"
+        },
+        {
+          "id": 2,
+          "userName": "Emily Anderson",
+          "rating": 4,
+          "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae risus dui. Integer imperdiet sem ac ros ultrices tempor tortor.",
+          "date": "2024-01-10"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Klinik Kemang",
+      "type": "Klinik Umum",
+      "address": "Jl. Kemang Raya No.9",
+      "rating": 4.9,
+      "totalReviews": 127,
+      "images": [
+        "/assets/image/kemang1.jpg",
+        "/assets/image/klinik2.jpg",
+        "/assets/image/klinik3.jpg",
+        "/assets/image/klinik4.jpg"
+      ],
+      "tabs": [
+        "Info Umum",
+        "Spesialis",
+        "Fasilitas",
+        "Review",
+        "Lokasi"
+      ],
+      "specialists": [
+        {
+          "id": 1,
+          "name": "Dr. Sarah",
+          "specialization": "General Practitioner",
+          "rating": 4.9,
+          "totalReviews": 85,
+          "image": "/assets/image/doctor1.jpg"
+        }
+      ],
+      "facilities": [
+        {
+          "name": "WiFi",
+          "icon": "wifi-icon"
+        },
+        {
+          "name": "AC",
+          "icon": "ac-icon"
+        },
+        {
+          "name": "Parkir",
+          "icon": "parking-icon"
+        }
+      ],
+      "reviews": [
+        {
+          "id": 1,
+          "userName": "John Doe",
+          "rating": 5,
+          "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae risus dui. Integer imperdiet sem ac ros ultrices tempor tortor.",
+          "date": "2024-01-20"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Klinik Medika",
+      "type": "Klinik Gigi",
+      "address": "Jl. Kby Baru No.27",
+      "rating": 4.7,
+      "totalReviews": 5223,
+      "images": [
+        "/assets/image/medika1.jpg",
+        "/assets/image/klinik2.jpg",
+        "/assets/image/klinik3.jpg",
+        "/assets/image/klinik4.jpg"
+      ],
+      "tabs": [
+        "Info Umum",
+        "Spesialis",
+        "Fasilitas",
+        "Review",
+        "Lokasi"
+      ],
+      "specialists": [
+        {
+          "id": 1,
+          "name": "Dr. Robert",
+          "specialization": "Dental Surgeon",
+          "rating": 4.8,
+          "totalReviews": 156,
+          "image": "/assets/image/doctor2.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Dr. Linda",
+          "specialization": "Orthodontist",
+          "rating": 4.9,
+          "totalReviews": 203,
+          "image": "/assets/image/doctor1.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Dr. Michael",
+          "specialization": "Periodontist",
+          "rating": 4.7,
+          "totalReviews": 178,
+          "image": "/assets/image/doctor2.jpg"
+        }
+      ],
+      "facilities": [
+        {
+          "name": "WiFi",
+          "icon": "wifi-icon"
+        },
+        {
+          "name": "AC",
+          "icon": "ac-icon"
+        },
+        {
+          "name": "Parkir",
+          "icon": "parking-icon"
+        },
+        {
+          "name": "X-Ray",
+          "icon": "xray-icon"
+        }
+      ],
+      "reviews": [
+        {
+          "id": 1,
+          "userName": "Maria Garcia",
+          "rating": 5,
+          "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae risus dui. Integer imperdiet sem ac ros ultrices tempor tortor.",
+          "date": "2024-01-18"
+        },
+        {
+          "id": 2,
+          "userName": "David Wilson",
+          "rating": 4,
+          "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae risus dui. Integer imperdiet sem ac ros ultrices tempor tortor.",
+          "date": "2024-01-12"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Klinik Tanah Kusir",
+      "type": "Klinik THT",
+      "address": "Jl. Ampera Raya 67",
+      "rating": 5,
+      "totalReviews": 405,
+      "images": [
+        "/assets/image/klinik1.jpg",
+        "/assets/image/klinik2.jpg",
+        "/assets/image/klinik3.jpg",
+        "/assets/image/klinik4.jpg"
+      ],
+      "tabs": [
+        "Info Umum",
+        "Spesialis",
+        "Fasilitas",
+        "Review",
+        "Lokasi"
+      ],
+      "specialists": [
+        {
+          "id": 1,
+          "name": "Dr. Amanda",
+          "specialization": "ENT Specialist",
+          "rating": 5,
+          "totalReviews": 189,
+          "image": "/assets/image/doctor1.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Dr. James",
+          "specialization": "Audiologist",
+          "rating": 4.9,
+          "totalReviews": 156,
+          "image": "/assets/image/doctor2.jpg"
+        }
+      ],
+      "facilities": [
+        {
+          "name": "WiFi",
+          "icon": "wifi-icon"
+        },
+        {
+          "name": "AC",
+          "icon": "ac-icon"
+        },
+        {
+          "name": "Parkir",
+          "icon": "parking-icon"
+        },
+        {
+          "name": "Audiometry",
+          "icon": "audiometry-icon"
+        }
+      ],
+      "reviews": [
+        {
+          "id": 1,
+          "userName": "Sophie Chen",
+          "rating": 5,
+          "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae risus dui. Integer imperdiet sem ac ros ultrices tempor tortor.",
+          "date": "2024-01-14"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Klinik Ampera",
+      "type": "Klinik THT",
+      "address": "Jl. Ampera Raya 67",
+      "rating": 5,
+      "totalReviews": 405,
+      "images": [
+        "/assets/image/klinik1.jpg",
+        "/assets/image/klinik2.jpg",
+        "/assets/image/klinik3.jpg",
+        "/assets/image/klinik4.jpg"
+      ],
+      "tabs": [
+        "Info Umum",
+        "Spesialis",
+        "Fasilitas",
+        "Review",
+        "Lokasi"
+      ],
+      "specialists": [
+        {
+          "id": 1,
+          "name": "Dr. Kevin",
+          "specialization": "ENT Surgeon",
+          "rating": 4.9,
+          "totalReviews": 167,
+          "image": "/assets/image/doctor1.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Dr. Rachel",
+          "specialization": "ENT Specialist",
+          "rating": 4.8,
+          "totalReviews": 143,
+          "image": "/assets/image/doctor2.jpg"
+        }
+      ],
+      "facilities": [
+        {
+          "name": "WiFi",
+          "icon": "wifi-icon"
+        },
+        {
+          "name": "AC",
+          "icon": "ac-icon"
+        },
+        {
+          "name": "Parkir",
+          "icon": "parking-icon"
+        },
+        {
+          "name": "Audiometry",
+          "icon": "audiometry-icon"
+        },
+        {
+          "name": "Pharmacy",
+          "icon": "pharmacy-icon"
+        }
+      ],
+      "reviews": [
+        {
+          "id": 1,
+          "userName": "Thomas Brown",
+          "rating": 5,
+          "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae risus dui. Integer imperdiet sem ac ros ultrices tempor tortor.",
+          "date": "2024-01-16"
+        },
+        {
+          "id": 2,
+          "userName": "Lisa Wang",
+          "rating": 5,
+          "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae risus dui. Integer imperdiet sem ac ros ultrices tempor tortor.",
+          "date": "2024-01-11"
+        }
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Semua"
+    },
+    {
+      "id": 2,
+      "name": "Umum"
+    },
+    {
+      "id": 3,
+      "name": "Mata"
+    },
+    {
+      "id": 4,
+      "name": "Gigi"
+    },
+    {
+      "id": 5,
+      "name": "THT"
+    }
+  ],
+  "bookings": [
+    {
+      "id": 1,
+      "NamaLengkap": "John Doe",
+      "NoHp": "1234567890",
+      "JenisKelamin": "Laki-laki",
+      "TanggalLahir": "2000-01-01",
+      "AlamatLengkap": "123 Main St, Anytown, USA"
+    }
+  ]
+}
