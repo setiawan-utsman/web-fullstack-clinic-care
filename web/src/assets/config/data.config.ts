@@ -1,6 +1,7 @@
 import promo1 from "../image/promo1.png";
 import promo2 from "../image/promo2.png";
 
+
 export const PROMOS = [
     {
         id: 1,
