@@ -2,6 +2,7 @@ import { useState } from "react";
 import { HospitalIcon, Menu, X } from "lucide-react";
 import { MENU } from "../../assets/config/menu.config";
 import { NavLink, Outlet } from "react-router-dom";
+import pp from "../../assets/image/doctor-profile.png";
 
 export const Layout = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -49,7 +50,7 @@ export const Layout = () => {
                         {/* Avatar */}
                         <div className="w-9 h-9 md:w-10 md:h-10 rounded-full overflow-hidden border-2 border-white shadow-sm">
                             <img
-                                src="https://i.pravatar.cc/100"
+                                src={pp}
                                 alt="profile"
                                 className="w-full h-full object-cover"
                             />
