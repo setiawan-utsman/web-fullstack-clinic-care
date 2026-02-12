@@ -39,13 +39,25 @@ export const BookingModal = ({ open, onOpenChange }: BookingModalProps) => {
     const { mutate, isPending } = useMutation({
         mutationFn: (data: BookingForm) => clinicService.createBooking(data),
         onSuccess: () => {
-            toast.success("Booking berhasil!");
+            toast.success("Booking berhasil!", {
+                duration: 5000,
+                className: "animate-fade-up",
+                style: {
+                    backgroundColor: "#e0f2f1",
+                },
+            });
             navigate("/layanan");
             reset();
             onOpenChange(false);
         },
         onError: (error: any) => {
-            toast.error("Terjadi kesalahan: " + (error?.message || "Gagal melakukan booking."));
+            toast.error("Terjadi kesalahan: " + (error?.message || "Gagal melakukan booking."), {
+                duration: 5000,
+                className: "animate-fade-up",
+                style: {
+                    backgroundColor: "#fee2e2",
+                },
+            });
         },
     });
 

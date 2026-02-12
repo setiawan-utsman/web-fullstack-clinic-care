@@ -36,7 +36,7 @@ export const Layout = () => {
                                 to={item.href}
                                 className={({ isActive }) =>
                                     isActive
-                                        ? "text-teal-600 font-semibold relative after:absolute after:bottom-[-4px] after:left-0 after:w-full after:h-0.5 after:bg-teal-600 rounded-full"
+                                        ? "text-teal-600 font-semibold relative after:absolute after:bottom-[-25px] after:left-0 after:w-full after:h-0.5 after:bg-teal-600 rounded-full"
                                         : "hover:text-teal-600 transition"
                                 }
                             >

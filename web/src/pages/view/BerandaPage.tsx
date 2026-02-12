@@ -13,7 +13,7 @@ export const BerandaPage = () => {
 
     return (
         <>
-            <div className="pb-20">
+            <div className="pb-20 animate-fade-up">
                 <section className="relative bg-[#eef4f3] pb-24">
                     <div className="container mx-auto px-6 py-16 md:py-24 grid md:grid-cols-2 gap-12 items-center">
                         {/* LEFT CONTENT */}
