@@ -4,9 +4,7 @@ import { useQuery } from "@tanstack/react-query";
 import { clinicService } from "../../services/clinicService";
 import type { Clinic } from "../../type/clinic.types";
 import notFoundImg from "../../assets/image/not-found.png";
-// import klinik1 from "../../assets/image/klinik1.jpg";
-// import klinik2 from "../../assets/image/klinik2.jpg";
-// import klinik3 from "../../assets/image/klinik3.jpg";
+import doctorProfile from "../../assets/image/doctor-profile.png";
 
 export const ClinicDetail = () => {
     const { id } = useParams<{ id: string }>();
@@ -150,6 +148,9 @@ export const ClinicDetail = () => {
                                         src={doc.image}
                                         alt={doc.name}
                                         className="w-20 h-20 rounded-full object-cover border-2 border-teal-50"
+                                        onError={(e) => {
+                                            e.currentTarget.src = doctorProfile;
+                                        }}
                                     />
 
                                     <div>
