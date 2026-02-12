@@ -79,14 +79,12 @@ export const BerandaPage = () => {
                     <h2 className="text-3xl md:text-4xl font-semibold">
                         Kategori <span className="text-teal-600">Klinik</span>
                     </h2>
-
                     <BerandaCategory />
                 </section>
                 <section className="max-w-7xl mx-auto mt-24">
                     <h2 className="text-3xl md:text-4xl font-semibold text-center">
                         Promo <span className="text-teal-600">Menarik</span>
                     </h2>
-
                     <BerandaPromoCard />
                 </section>
             </div>
